@@ -1,17 +1,16 @@
 # Path to user files, this includes history, seasonals files and more.
 #
 # You may use `~` or environment vars in your path.
-user_files_path: ${ANIPY_FILES}\anipy-cli
-
+user_files_path: ${ANIPY_FILES}
 # Path to your download folder/directory.
 #
 # You may use `~` or environment vars in your path.
-download_folder_path: ${ANIPY_FILES}\download
+download_folder_path: ${ANIPY_FILES}/download
 
 # Path to your seasonal downloads directory.
 #
 # You may use `~` or environment vars in your path.
-seasonals_dl_path: ${ANIPY_FILES}\download\seasonals
+seasonals_dl_path: ${ANIPY_FILES}/download/seasonals
 
 # A list of pairs defining which providers will search for anime
 # in different parts of the program. Configurable areas are as follows:
@@ -21,7 +20,7 @@ seasonals_dl_path: ${ANIPY_FILES}\download\seasonals
 #
 # For an updated list of providers look here: https://sdaqo.github.io/anipy-cli/availabilty
 #
-# Supported providers (as of 3.5.7): allanime, animekai (animekai is not functional for now)
+# Supported providers (as of 3.5.6): allanime, animekai
 #
 # Examples:
 #     providers:
@@ -53,7 +52,7 @@ provider_urls: {}
 # Path to your video player.
 # For a list of supported players look here: https://sdaqo.github.io/anipy-cli/availabilty
 #
-# Supported players (as of 3.5.7): mpv, vlc, syncplay, mpvnet, mpv-controlled
+# Supported players (as of 3.5.6): mpv, vlc, syncplay, mpvnet, mpv-controlled
 #
 # Info for mpv-controlled:
 # Reuse the mpv window instead of closing and reopening.
