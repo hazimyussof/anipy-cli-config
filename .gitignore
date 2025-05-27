@@ -1,6 +1,3 @@
-# ignore the config file since it has a unique PATH for each system
-config.yaml
-
 # macOS system files
 .DS_Store
 .AppleDouble
